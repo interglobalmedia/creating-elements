@@ -1,0 +1,25 @@
+{
+  "name": "creating-elements",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A little application that creates new elements on the page!",
+  "main": "main.js",
+  "scripts": {
+    "clean": "rm -rf dist/ && mkdir dist",
+    "build": "cp index.html main.css main.js dist/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interglobalmedia/creating-elements.git"
+  },
+  "author": "Maria D. Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interglobalmedia/creating-elements/issues"
+  },
+  "homepage": "https://github.com/interglobalmedia/creating-elements#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
